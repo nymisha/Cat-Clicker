@@ -1,0 +1,193 @@
+body
+ {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+
+
+.container
+{
+  width: 100%;
+  height: 100%;
+  display:inline-block;
+   background-color: aqua;
+
+}
+
+.nav {
+  width: 20%;
+  position: absolute;
+  -webkit-transform: translate(-400px, 0);
+  transform: translate(-400px, 0);
+  transition: transform 0.3s ease;
+  margin-left: 0;
+  z-index: 1;
+
+ 
+}
+
+
+nav.open {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+ }
+
+.image_props
+{
+width:80%;
+display:block;
+margin-left:25%;
+}
+
+.image_name
+{
+  width:400px;
+  font-size: 2em;
+  margin: 0.75em 0.75em 0.75em 0em;
+  color: blue;
+  
+
+  
+}
+
+.display_image
+{
+  
+ display:block;
+  
+}
+
+.counter
+{
+
+  width:400px;
+  font-size: 2em;
+  margin: 0.75em 0.75em 0.75em 0em;
+  
+   color: blue;
+}
+
+.container
+{
+  width: 100%;
+  display:inline-block;
+
+}
+
+
+
+
+.menuItemList {
+  list-style-type: none;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  color: blue;
+  background-color: brown;
+  font-size: 2em;
+  display:inline-block;
+  
+  
+}
+
+
+.menuItem {
+
+  border-bottom: 2px solid black;
+  padding: 0.5em 0.5em 0.5em 0.5em
+}
+
+
+
+
+
+/*.menuItemList,.menuItem{
+  list-style-type: none;
+  font-size: 1.2em;
+  font-weight: 700;
+  display:flex;
+  flex-wrap:wrap;
+  color:brown;
+  flex-direction: column;
+  width:100%;
+  position: relative;
+
+}
+.menuItem{
+  width:100%;
+  background-color: green;
+  border-bottom:1px solid black;
+
+}*/
+
+
+
+header {
+  display: flex;
+  width: 100%;
+}
+
+h1 {
+  width: 70%;
+  text-align: center;
+  margin: 0.5em 1em 0.5em 1em;
+  color: brown
+}
+
+.menuIcon {
+  width: 10%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin-top: 1em;
+}
+
+
+/*.row
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+h2{
+  text-align: center;
+}
+
+img{
+
+  margin:2px 2px 2px 2px;
+}
+
+.cat_image
+{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+
+
+.navDiv
+{
+  display:flex;
+  flex-wrap:nowrap;
+}
+
+
+
+
+.navDiv> ul, li{
+  list-style-type: none;
+  font-size: 1.2em;
+  font-weight: 700;
+  display:flex;
+  flex-wrap:wrap;
+  margin: 1em 1em 1em 1em;
+
+}*/
